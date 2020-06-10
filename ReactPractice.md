@@ -24,7 +24,8 @@
 
 ###### - 5. 创建webpack.config.js
 
-`const path = require('path');
+``` 
+const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 // 负责将html文档虚拟到根目录下
@@ -58,18 +59,19 @@ module.exports = {
     },
     // 装载虚拟目录插件
     plugins: [htmlWebpackPlugin],
-}`
+}
+```
 
 ###### - 6.创建.babelrc
-`
+``` json
 {
     "presets": ["env", "stage-0", "react"],
     "plugins": ["transform-runtime"]
 }
-`
+```
 
 ###### - 7.在webpack.config.js中加入loader
-`
+``` javascript
 // webpack.config.js
 module.exports = {
     ...
@@ -82,7 +84,7 @@ module.exports = {
         ]
     }
 };
-`
+```
 
 
 
