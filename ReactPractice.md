@@ -20,6 +20,8 @@
 
 > npm install babel-preset-react -D
 
+> npm install babel-loader@7 -D
+
 ###### - 4. 在根目录下创建src文件夹，在src中创建index.html  index.js
 
 ###### - 5. 创建webpack.config.js
@@ -85,6 +87,8 @@ module.exports = {
     }
 };
 ```
+
+**安装的loader这些都是老版本的**
 
 
 
