@@ -90,6 +90,8 @@ module.exports = {
 
 **安装的loader这些都是老版本的**
 
+[参考链接](https://www.jianshu.com/p/0bd84b8656c5)
+
 
 
 
